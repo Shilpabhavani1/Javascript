@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Table Method</title>
+</head>
+<body>
+   <table border="">
+   	<tr>
+   		<td>1</td>
+   		<td>2</td>
+   		<td>3</td>
+   	</tr>
+   	<tr>
+   		<td>4</td>
+   		<td>5</td>
+   		<td>6</td>
+   	</tr>
+   	<tr>
+   		<td>7</td>
+   		<td>8</td>
+   		<td>9</td>
+   	</tr>
+   </table>
+   <script type="text/javascript">
+   	let t=document.getElementsByTagName('td');
+   	// console.log(t);
+   	// t[0].innerText="one";
+   	// t[1].innerText="two";
+   	// t[2].innerText="three";
+   	// t[3].innerText="four";
+   	// t[4].innerText="five";
+   	// t[5].innerText="six";
+   	// t[6].innerText="seven";
+   	// t[7].innerText="eight";
+   	// t[8].innerText="nine";
+   	// for(var i=0;i<t.length;i++)
+   	// {
+   	// 	t[i].innerText=i+1;
+   	// }
+   	var k=9;
+   	for(var i=0;i<t.length;i++)
+   	 {
+   	 	// t[i].innerText=t.length-i;
+   	 	   t[i].innerText=k;
+   	 	   k--;
+   	 }
+   </script>
+</body>
+</html>

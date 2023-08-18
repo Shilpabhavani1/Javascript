@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>var,let and const</title>
+</head>
+<body>
+   <script type="text/javascript">
+   	// var a=10;//We can declare anywhere-global scope variable
+   	// document.write(a+"<br>");
+
+
+   	// let b=20;//Inside the block only
+   	// let b=30//We cannot declare same variable by using let-wrong
+   	// b=30//reinitialize value possible
+   	// document.write(b+"<br>");
+
+   	//block level variable
+   	// {
+   	// 	let c=30;
+   	// 	document.write(c);
+   	// }
+   	// document.write(c);//error It will execute inside the block only
+
+
+
+   	const pi=3.14;
+   	pi=4.20;//we cannot change the number--fixed
+   	// const atmcardno=12345678;
+   	// document.write(atmcardno);
+   	document.write(pi);
+
+   	//String
+   	var a="Shilpa";
+   	document.write(a+"<br>");
+
+   	{
+   	   let c="bhavani";
+   	 	document.write(c);
+   	 }
+
+   	 const b="bhavya";
+   	 b="sri";
+   	 document.write(b+"<br>");
+   	
+   </script>
+</body>
+</html>

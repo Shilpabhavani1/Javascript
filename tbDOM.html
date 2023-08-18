@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DOM</title>
+</head>
+<body>
+   <!-- 1.By ID -->
+   <!-- <p id="a">This is Paragraph</p>
+   <script type="text/javascript">
+   	  let d=document.getElementById('a');
+   	  d.style.color="red";
+   </script> -->
+
+      <!-- 2.By ClassName -->
+      <!-- <p class="b">Shilpa</p>
+      <p class="b">Bhavya</p>
+      <p class="b">Shilpa</p>
+      <p class="b">Bhavya</p>
+      <script type="text/javascript">
+      	 let d=document.getElementsByClassName('b');
+      	 	d[0].style.color="red";
+  	        d[2].style.color="blue";
+      </script>  -->
+
+      <!-- 3.By TagName -->
+       <ul>
+    	<li>AEC</li>
+    	<li>ECE</li>
+    	<li>AE</li>
+      </ul>
+    <script type="text/javascript">
+    	let l=document.getElementsByTagName('li');
+    	console.log(l);
+    	l[0].innerText="Aditya Engineering College";
+    	l[1].innerText="Electronics and Communication Engineering";
+    	l[0].style.fontsize="15px";
+    	l[2].innerText="Aditya Engineering College";
+    </script>
+</body>
+</html>

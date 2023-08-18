@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DOM Methods2</title>
+</head>
+<body>
+  <p class="topic">HTML</p>
+  <p class="topic">CSS</p>
+  <p class="topic">BS</p>
+  <p class="topic">JS</p>
+  <script type="text/javascript">
+  	let s=document.getElementsByClassName('topic');
+  	console.log(s);
+  	s[0].innerHTML="Hyper Text Markup Language";
+  	s[2].innerHTML="Bootstrap";
+  	s[0].style.color="red";
+  	s[2].style.color="blue";
+  </script>
+</body>
+</html>
